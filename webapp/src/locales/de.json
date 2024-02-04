@@ -1,6 +1,8 @@
 {
     "menu": {
-        "LiveView": "Live-Ansicht",
+        "View": "Ansicht",
+        "LiveView": "Live Ansicht ",
+        "DiagrammView": "Diagramm-Ansicht",
         "Settings": "Einstellungen",
         "NetworkSettings": "Netzwerk",
         "NTPSettings": "NTP",
@@ -137,6 +139,17 @@
         "Unknown": "Unbekannt",
         "ShowGridProfile": "Zeige Grid Profil",
         "GridProfile": "Grid Profil"
+    },
+    "diagramm": {
+        "DiagrammView": "Diagramm-Daten",
+        "DayData": "Übersicht Tagesertrag",
+        "WeekData": "Übersicht Wochenertrag",
+        "MonthData": "Übersicht Monatsertrag",
+        "YearData": "Übersicht Jahresertrag",
+        "Year10Data": "Übersicht letzten 10 Jahre",
+        "1":"1",
+        "2":"2"
+
     },
     "eventlog": {
         "Start": "Begin",

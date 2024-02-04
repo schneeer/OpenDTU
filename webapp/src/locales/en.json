@@ -1,6 +1,8 @@
 {
     "menu": {
+        "View": "View",
         "LiveView": "Live View",
+        "DiagrammView": "Diagramm View",
         "Settings": "Settings",
         "NetworkSettings": "Network Settings",
         "NTPSettings": "NTP Settings",
@@ -138,6 +140,20 @@
         "ShowGridProfile": "Show Grid Profile",
         "GridProfile": "Grid Profile"
     },
+    "diagramm": {
+        "DiagrammView": "Diagramm Data",
+        "DayData": "Overview of daily yield",
+        "WeekData": "Overview of weekly yield",
+        "MonthData": "Overview monthly yield",
+        "YearData": "Overview of annual incom",
+        "Year10Data": "Overview of the last 10 years"
+
+
+
+
+
+
+        },
     "eventlog": {
         "Start": "Start",
         "Stop": "Stop",

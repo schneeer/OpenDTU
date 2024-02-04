@@ -5,6 +5,7 @@ import DeviceAdminView from '@/views/DeviceAdminView.vue'
 import DtuAdminView from '@/views/DtuAdminView.vue';
 import FirmwareUpgradeView from '@/views/FirmwareUpgradeView.vue';
 import HomeView from '@/views/HomeView.vue';
+import DiagrammView from '@/views/DiagrammView.vue';
 import InverterAdminView from '@/views/InverterAdminView.vue';
 import LoginView from '@/views/LoginView.vue';
 import MaintenanceRebootView from '@/views/MaintenanceRebootView.vue';
@@ -22,11 +23,16 @@ const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     linkActiveClass: "active",
     routes: [
-    {
-        path: '/',
-        name: 'Home',
-        component: HomeView
-    },
+        {
+            path: '/',
+            name: 'Home',
+            component: HomeView
+        },
+        {
+            path: '/diagramm',
+            name: 'Diagramm View',
+            component: DiagrammView
+        },
     {
         path: '/login',
         name: 'Login',

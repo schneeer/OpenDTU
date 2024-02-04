@@ -1,6 +1,8 @@
 {
     "menu": {
-        "LiveView": "Direct",
+        "View": "Vue",
+        "LiveView": "Vue en direct",
+        "DiagrammView": "Vue diagramme",
         "Settings": "Paramètres",
         "NetworkSettings": "Réseau",
         "NTPSettings": "Heure locale",
@@ -138,6 +140,14 @@
         "ShowGridProfile": "Show Grid Profile",
         "GridProfile": "Grid Profile"
     },
+    "diagramm": {
+        "DiagrammView": "Données graphiques",
+        "DayData": "Aperçu du rendement quotidien",
+        "WeekData": "Aperçu du rendement hebdomadaire",
+        "MonthData": "Aperçu rendement mensuel",
+        "YearData": "Aperçu du rendement annuel",
+        "Year10Data": "Aperçu des 10 dernières années"
+            },
     "eventlog": {
         "Start": "Départ",
         "Stop": "Arrêt",

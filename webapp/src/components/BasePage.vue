@@ -84,6 +84,18 @@ export default defineComponent({
     border-color: #ff0000;
     border-radius: 50%;
 }
+.offlineMarker::after {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin: -12px 0 0 -12px;
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+    box-shadow: 0 0 4px #ff0000, inset 0 0 4px rgb(56, 111, 169);
+    transform: scale(0);
+    animation: online 2.5s ease-in-out infinite;
+}
 .onlineMarker:before {
     content: '';
     position: absolute;
@@ -92,18 +104,6 @@ export default defineComponent({
     background: #00bb00;
     border-color: #00bb00;
     border-radius: 50%;
-}
-.onlineMarker:after {
-    content: '';
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    margin: -12px 0 0 -12px;
-    border: 1px solid #00bb00;
-    border-radius: 50%;
-    box-shadow: 0 0 4px #00bb00, inset 0 0 4px rgb(56, 111, 169);
-    transform: scale(0);
-    animation: online 2.5s ease-in-out infinite;
 }
 @keyframes online {
     0% {
