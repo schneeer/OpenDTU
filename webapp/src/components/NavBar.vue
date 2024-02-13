@@ -109,8 +109,7 @@
                     <li class="nav-item">
                         <router-link @click="onClick" class="nav-link" to="/about">{{ $t('menu.About') }}</router-link>
                     </li>
-                </ul>
-                <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                    <li class="flex-sm-fill"></li>
                     <ThemeSwitcher class="me-2" />
                     <form class="d-flex" role="search">
                         <LocaleSwitcher class="me-2" />
