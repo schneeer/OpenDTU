@@ -17,10 +17,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" ref="navbarCollapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav me-auto">
-
-
-
+                <ul class="navbar-nav navbar-nav-scroll d-flex me-auto flex-sm-fill">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
