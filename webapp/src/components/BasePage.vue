@@ -92,7 +92,7 @@ export default defineComponent({
     margin: -12px 0 0 -12px;
     border: 1px solid #ff0000;
     border-radius: 50%;
-    box-shadow: 0 0 4px #ff0000, inset 0 0 4px rgb(56, 111, 169);
+    box-shadow: 0 0 4px #ff0000, inset 0 0 4px rgb(212, 32, 77);
     transform: scale(0);
     animation: online 2.5s ease-in-out infinite;
 }
