@@ -18,16 +18,9 @@
     "mitt": "^3.0.1",
     "sortablejs": "^1.15.2",
     "spark-md5": "^3.0.2",
-<<<<<<< HEAD
-    "vue": "^3.4.19",
-    "vue-i18n": "^9.9.1",
-    "vue-router": "^4.2.5",
-    "vue3-calendar-heatmap": "^2.0.5"
-=======
     "vue": "^3.4.21",
     "vue-i18n": "^9.10.2",
     "vue-router": "^4.3.0"
->>>>>>> f66b4fa5f115453d9863d917fd40f32116b9a30e
   },
   "devDependencies": {
     "@intlify/unplugin-vue-i18n": "^3.0.1",
