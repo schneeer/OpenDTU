@@ -4,7 +4,7 @@
             <router-link @click="onClick" class="navbar-brand" to="/" style="display: flex; height: 30px; padding: 0;">
                 <BIconTree v-if="isXmas" width="30" height="30" class="d-inline-block align-text-top text-success" />
 
-                <BIconEgg v-else-if="isEaster" width="30" height="30" class="d-inline-block align-text-top text-info" />
+                <BIconEggFill v-else-if="isEaster" width="30" height="30" class="d-inline-block align-text-top text-info" />
 
                 <BIconSun v-else width="30" height="30" class="d-inline-block align-text-top text-warning" />
 
@@ -121,14 +121,14 @@
 
 <script lang="ts">
 import { isLoggedIn, logout } from '@/utils/authentication';
-import { BIconEgg, BIconSun, BIconTree } from 'bootstrap-icons-vue';
+import { BIconSun, BIconTree, BIconEggFill } from 'bootstrap-icons-vue';
 import { defineComponent } from 'vue';
 import LocaleSwitcher from './LocaleSwitcher.vue';
 import ThemeSwitcher from './ThemeSwitcher.vue';
 
 export default defineComponent({
     components: {
-        BIconEgg,
+        BIconEggFill,
         BIconSun,
         BIconTree,
         LocaleSwitcher,
