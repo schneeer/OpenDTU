@@ -376,10 +376,8 @@ export default defineComponent({
 
 
         isLoggedIn,
-        getInitialData(triggerLoading: boolean = true) {
-            if (triggerLoading) {
-                ;
-            }
+        getInitialData() {
+
             fetch("/api/livedata/status", { headers: authHeader() })
                 .then((response) => handleResponse(response, this.$emitter, this.$router))
 
