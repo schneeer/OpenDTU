@@ -32,6 +32,7 @@ export interface Display {
     clk: number;
     cs: number;
     reset: number;
+    bl: number;
 }
 
 export interface Links {
