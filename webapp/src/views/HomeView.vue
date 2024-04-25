@@ -3,13 +3,6 @@
         <HintView :hints="liveData.hints" />
         <InverterTotalInfo :totalData="liveData.total" /><br />
 
-        <div class="card">
-            <div class="card-body">
-                <BarChart />
-                <CalendarChart />
-            </div>
-        </div><br>
-
         <div class="row gy-3">
             <div class="col-sm-3 col-md-2" :style="[inverterData.length == 1 ? { 'display': 'none' } : {}]">
                 <div class="nav nav-pills row-cols-sm-1" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -267,8 +260,6 @@
 </template>
 
 <script lang="ts">
-import BarChart from "@/components/BarChart.vue";
-import CalendarChart from "@/components/CalendarChart.vue";
 import BasePage from '@/components/BasePage.vue';
 import BootstrapAlert from '@/components/BootstrapAlert.vue';
 import DevInfo from '@/components/DevInfo.vue';
@@ -324,8 +315,6 @@ export default defineComponent({
         BIconToggleOff,
         BIconToggleOn,
         BIconXCircleFill,
-        BarChart,
-        CalendarChart,
     },
     data() {
         return {
