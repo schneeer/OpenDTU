@@ -330,7 +330,7 @@
 
 <script lang="ts">
 import BasePage from '@/components/BasePage.vue';
-import ThemeSwitcher from '@/components/ThemeSwitcher.vue';
+
 import { authHeader, authUrl, handleResponse, isLoggedIn } from '@/utils/authentication';
 import { defineComponent } from 'vue';
 
@@ -343,7 +343,7 @@ import { defineComponent } from 'vue';
 export default defineComponent({
     components: {
         BasePage,
-        ThemeSwitcher,
+
 
     },
     data() {
@@ -394,18 +394,9 @@ export default defineComponent({
             this.socket = new WebSocket(webSocketUrl);
 
 
-            var self = this;
 
-            this.socket.onopen = function (event) {
-                console.log(event);
-                console.log("Successfully connected to the echo websocket server...");
-                self.isWebsocketConnected = true;
-            };
 
-            this.socket.onclose = function () {
-                console.log("Connection to websocket closed...")
-                self.isWebsocketConnected = false;
-            }
+
         }
     },
 });
