@@ -164,7 +164,7 @@
         "MonthData": "Aperçu rendement mensuel",
         "YearData": "Aperçu du rendement annuel",
         "Year10Data": "Aperçu des 10 dernières années"
-            },
+    },
     "eventlog": {
         "Start": "Départ",
         "Stop": "Arrêt",

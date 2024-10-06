@@ -4,7 +4,12 @@
             <router-link @click="onClick" class="navbar-brand" to="/" style="display: flex; height: 30px; padding: 0">
                 <BIconTree v-if="isXmas" width="30" height="30" class="d-inline-block align-text-top text-success" />
 
-                <BIconEggFill v-else-if="isEaster" width="30" height="30" class="d-inline-block align-text-top text-info" />
+                <BIconEggFill
+                    v-else-if="isEaster"
+                    width="30"
+                    height="30"
+                    class="d-inline-block align-text-top text-info"
+                />
 
                 <BIconSun v-else width="30" height="30" class="d-inline-block align-text-top text-warning" />
 
@@ -24,17 +29,27 @@
             <div class="collapse navbar-collapse" ref="navbarCollapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav navbar-nav-scroll d-flex me-auto flex-sm-fill">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarScrollingDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
                             {{ $t('menu.View') }}
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                             <li>
-                                <router-link @click="onClick" class="dropdown-item" to="/">{{ $t('menu.LiveView') }}</router-link>
+                                <router-link @click="onClick" class="dropdown-item" to="/">{{
+                                    $t('menu.LiveView')
+                                }}</router-link>
                             </li>
                             <li>
-                                <router-link @click="onClick" class="dropdown-item" to="/diagramm">{{ $t('menu.DiagrammView') }}</router-link>
+                                <router-link @click="onClick" class="dropdown-item" to="/diagramm">{{
+                                    $t('menu.DiagrammView')
+                                }}</router-link>
                             </li>
                         </ul>
                     </li>

@@ -164,13 +164,7 @@
         "MonthData": "Overview monthly yield",
         "YearData": "Overview of annual incom",
         "Year10Data": "Overview of the last 10 years"
-
-
-
-
-
-
-        },
+    },
     "eventlog": {
         "Start": "Start",
         "Stop": "Stop",

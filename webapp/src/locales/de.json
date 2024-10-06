@@ -164,9 +164,8 @@
         "MonthData": "Übersicht Monatsertrag",
         "YearData": "Übersicht Jahresertrag",
         "Year10Data": "Übersicht letzten 10 Jahre",
-        "1":"1",
-        "2":"2"
-
+        "1": "1",
+        "2": "2"
     },
     "eventlog": {
         "Start": "Beginn",
